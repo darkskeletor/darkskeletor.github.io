@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #000099;
+    font-weight: bolder;
+}
+
+/*NAV*/
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-bottom: 3px solid #bf930d;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+}
+
+header img{    
+    height: 6vh;
+    margin: 0.5rem 2rem;
+}
+
+nav{
+    width: 50%;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;        
+    list-style: none;
+    align-items: center;   
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;    
+}
+
+/*Section*/
+
+section{
+    width: 80%;
+    margin: auto;
+}
+#W11{
+    margin-top: 8rem;    
+}
+
+h2{    
+    color: #bf930d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;    
+}
+
+h3{
+    color: #bf930d;    
+    margin-top: 3rem;
+}
+
+p, li{
+    color: #000099;
+}
+
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid goldenrod;
+    padding: 0.5rem;
+    color: #000099;
+    text-align: center;    
+}
+
+section{
+    border: 3px solid #000099;
+    padding: 1.5rem;
+}
+
+section a{
+    color: darkslategray;
+}
+
+.part1{
+    text-align: left;
+}
+
+nav a:hover{
+    color: #bf930d;
+}
