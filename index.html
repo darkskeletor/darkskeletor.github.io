@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia de Windows</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/estilos.css">
+</head>
+<body>
+    <header>               
+        <img src="assets/img/Win_logo.png" alt="Logo de Windows">
+        <nav> 
+            <ul>
+                    <li><a href="">Historia de Windows</a></li>
+                    <li><a href="">Windows 10</a></li>
+                    <li><a href="#W11">Windows 11</a></li>
+            </ul>               
+        </nav>
+    </header>
+    <main>
+        <section  id="W11">            
+            <h2>Windows 11</h2>
+            <h3>Introducción</h3>
+            <p>
+                El lanzamiento inicial de Windows 11 se produjo el 5 de octubre de 2021 y como ocurrió con Windows 10, los usuarios se pueden actualizargratuitamente a esta versión si tienen la Windows 10 o comprar una licencia.
+                <a href="https://es.wikipedia.org/wiki/Windows_11" target="_blanc">[1]</a>
+            </p>
+            
+            <p>
+                El problema radicó en los requisitos mínimos del sistema operativo, que impide su instalación a los equipos con unos pocos años de antigüedad, yen plena crisis de los semiconductores. Su andadura se inicia de la mejor forma posible. Por otra parte, es irónico ver como no soportaprocesadores Intel i con unos seis años de antigüedad y en cambio continúa dando soporte a una tecnología obsoleta y que casi nadie utiliza comodisquetes de 5,25”. Sinceramente, con este tipo de prácticas considero que intentan obligar a los usuarios que no se han comprado un Pc en losúltimos cinco o seis años a hacer un cambio y un gasto de dinero que en muchas ocasiones es innecesario.
+                <a href="https://www.xataka.com/historia-tecnologica/windows-11-no-soporta-procesadores-cinco-anos-ironia-que-soporta-discos-5-25-hace-30-anos" target="_blanc">[2]</a>
+            </p>                 
+            <p>                   
+                Por suerte podemos utilizar Rufus para crear un usb arrancable e instalarlo saltándonos todas estas restricciones innecesarias. En el caso deWindows 10, lo activa automáticamente y nos evita tener que comprar una licencia, desconozco si tiene la misma capacidad con Windows 11. <a href="https://www.informaticacolectiva.com/rufus-te-ayuda-a-omitir-tpm-y-secure-boot-en-windows-11/" target="_blanc">[3]</a>
+            </p>    
+            
+            <h3>Requisitos</h3>
+            <p>Los más importantes son: </p>
+            <ol>
+                <li>Procesador: 1Ghz o más rápido con dos nucleos de 64 bits.</li>
+                <li>Ram: 4GB.</li>
+                <li>Almacenamiento: 64GB</li>
+                <li>Firmware: Uefi con arranque seguro → El primer problema en el camino para su expansión.</li>
+                <li>
+                    TPM: Un módulo de plataforma segura → El segundo problema dejando obsoletos a los ordenadores con núcleos Intel de séptima generación yanteriores y encareciendo los módulos TPM instalables en la placa base. La última vez que lo miré, había subido de unos €20 a más de€100.                       
+                </li>
+                <li>Tarjeta Gráfica: Compatible con directx12 o posterior con controlador WDDM 2.0.</li>
+                <li>
+                    Pantalla: Necesitarás una pantalla de un mínimo de 9 pulgadas en diagonal, con 720p de alta definición, y canal de 8 bits por color.
+                </li>
+                <li>
+                    Otros: Vas a necesitar tener una cuenta de Microsoft, y necesitarás estar conectado a Internet para la configuración inicial y cualquieractualización.
+                </li>
+            </ol>
+            <a href="https://www.microsoft.com/es-es/windows/get-windows-11" target="_blanc">[4]</a>
+            <h3>Información técnica</h3>
+            <p>
+                Como todos los Windows posteriores a Windows xp, usa un nucleo híbrido NT, en este caso la versión 10.0. Es totalmente instalable en equipos conprocesadores de CISC 64Bits y ARM y presenta una interfaz gráfica llamada de Microsoft Fluent Design, la misma que su predecesor. Con el fin deactualizarse hace uso del Windows Update.
+                <a href="https://es.wikipedia.org/wiki/Windows_11" target="_blanc">[5]</a>
+            </p>
+            <p>
+                Si no se dispone de una copia anterior de Windows o no se desea comprar ninguna key, se puede utilizar completamente como ocurría con la versiónanterior y disponiendo de las últimas actualizaciones (sin activarlo). Eso sí, todo el tema de la personalización estarán bloqueados como cambiarel fondo de pantalla y asuntos semejantes de menor importancia.
+                Otro punto importante a tener en cuenta es que no permite instalar aplicaciones fuera de la Windows Store, salvo que se realicen una serie decambios en la bios. 
+            </p>
+            <h3>Nuevas características</h3>
+            <ol>
+                <li>
+                    Nuevo menú de inicio. Ahora la barra de tareas se coloca en el centro, aunque es algo configurable. El menú también cambia y elimina lasbaldosas para mostrar un diseño más limpio, elegante y minimalista. Como no puede ser de otra manera, existe una opción para ver todas lasaplicaciones instaladas. En mi opinión este menú de inicio es una de los mejores cambios que han hecho.
+                </li>
+                <li>
+                    En principio es compatible con aplicaciones android, estando integradas en la “prestigiosa” Windows Store. Creo que todavía no está disponible.
+                </li>
+                <li>
+                    En principio es compatible con aplicaciones android, estando integradas en la “prestigiosa” Windows Store. Creo que todavía no está disponible
+                </li>
+                <li>
+                    Nueva aplicación de captura de pantalla, o mejor dicho, es lo mismo pero con una presentación nueva para ir acorde con el nuevo aspecto delsistema. 
+                </li>
+                <li>Bordes redondeados. Le sienta bastante bien.</li>
+                <li>Cambios en los menús flotantes, básicamente, han redondeado también sus bordes.</li>
+                <li>Personalización de los escritorios virtuales.</li>
+                <li>Explorador modificado para acompañar al diseño general, nada especialmente reseñable.</li>
+                <li>
+                    Iconos renovados, bastantes bonitos, pero muy similares a los de Windows 10. Es posible que no sea capaz de captar con plenitud sus sutilesdiferencias.
+                </li>
+                <li>
+                    Nuevas fuentes por defecto, utilizarán una nueva en Microsoft Office después de 15 años usando la misma (Calibri). Un cambio menor y de escasaimportancia. 
+                </li>
+                <li>
+                    Tiene un modo oscuro y uno claro, como casi todos los sistemas operativos actuales. Y se puede activar transparencias.
+                </li>
+                <li>
+                    Creo que la pobre Cortana de Halo ha desaparecido o al menos la han escondido muy bien para que no moleste, lo agradezco.
+                </li>
+                <li>Una cosa muy útil es la posibilidad de habilitar fácilmente el dictado por voz.</li>
+                <li>
+                    Igual que su predecesor dispone de un modo Dios, sintetizando, no deja de ser una carpeta desde la que poder acceder a un menú oculto contodas las opciones de Windows.
+                </li>
+                <li>
+                    Han embellecido la CMD o PowerShell, tiene un toque minimalista.
+                </li>
+            </ol>
+            <a href="https://www.xataka.com/basics/windows-11-novedades-fecha-salida-precio-toda-informacion" target="_blanc">[6]</a>
+            <a href="https://www.xataka.com/aplicaciones/nueve-cosas-que-me-gustan-seis-que-tienen-que-mejorar-windows-11" target="_blanc">[7]</a>
+            <a href="https://www.genbeta.com/windows/windows-11-vs-windows-10-todos-cambios-visuales-imagenes" target="_blanc">[8]</a>
+            <h3>Comparación Windows 11 Home vs Windows 11 Pro</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Funciones</th>
+                        <th>Windows 11 Home</th>
+                        <th>Windows 11 Pro</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="part1">Cifrado de dispositivo</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">Registro de dispositivos</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">Protección de internet</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">Control parental</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">Windows Hello</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">Cifrado BitLocker</td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">Protección WIP</td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">Acceso asignado</td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">Roaming con Azure</td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">Windows Server</td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">MDM</td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td class="part1">Windows Update para empresas</td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5>Explicación de ciertas funciones:</h5>
+            <ol>
+                <li>
+                    <em>Protección WIP (Windows Information Protection):</em> Se trata de una protección adicional a las aplicaciones y datos que evita fugas dedatos de propiedad intelectual u otra índole.
+                </li>
+                <li>
+                    <em>asignado:</em> Esto permite que, según el usuario, se puedan ejecutar distintas apps y se mantengan identidades separadas y seguras.
+                </li>
+                <li>
+                    <em>Roaming con Azure:</em> Permite el roaming con una licencia Azure AD Premium. Así, se consigue reducir el tiempo de configuración de unnuevo dispositivo.
+                </li>
+                <li>
+                    <em>Windows Server:</em> Se puede administrar un conjunto de PCs, cuentas de usuarios o grupos para obtener acceso a ciertos archivos oimpresoras.
+                </li>
+                <li>
+                    <em>MDM:</em> Se trata de la gestión de dispositivos móviles con el objetivo de administrar la nube a nuestro modo.
+                </li>
+                <li>
+                    <em>Windows Update para empresas:</em> Ofrece un servicio diferencial y permite reducir el coste de tener que actualizar todos los equipos yestar al tanto de esto.
+                </li>
+            </ol>
+            <a href="https://www.infobae.com/america/tecno/2021/11/03/windows-11-home-vs-windows-pro-conozca-las-diferencias-y-cual-le-conviene-usar#:~:text=Windows%2011%20Home%20es%20la,para%20m%C3%A1quinas%20de%20cliente%20corporativo." target="_blanc">[9]</a>  
+        </section>
+    </main>       
+</body>
+</html>
