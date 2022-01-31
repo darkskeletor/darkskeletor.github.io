@@ -45,12 +45,16 @@ nav a{
 }
 
 /*Section*/
-
+section img{
+    width: 50%;
+    height: 50vh;
+    object-fit: cover;
+}
 section{
     width: 80%;
     margin: auto;
 }
-#W11{
+section{
     margin-top: 8rem;    
 }
 
