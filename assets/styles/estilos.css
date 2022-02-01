@@ -46,9 +46,7 @@ nav a{
 
 /*Section*/
 section img{
-    width: 50%;
-    height: 50vh;
-    object-fit: cover;
+    width: 50%;    
 }
 section{
     width: 80%;
